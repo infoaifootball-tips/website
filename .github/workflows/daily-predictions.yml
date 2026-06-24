@@ -21,4 +21,4 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY:  ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           COMPETITION:      'PL'             # PL = Premier League
           HISTORY_SEASONS:  '2023,2024,2025'
-          DAYS_AHEAD:       '60'             # set high for first test, then back to 3
+          DAYS_AHEAD:       '3'             # set high for first test, then back to 3
